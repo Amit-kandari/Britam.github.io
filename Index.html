@@ -3,13 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-    <title>LogIn Britam</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DXPSIT Yaskawa Styleguide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reponsive.css">
@@ -17,121 +16,448 @@
 
 <body>
 
+
+    <header>
+        <h1>Style Guidelines for Yaskawa</h1>
+    </header>
+
     <section class="container">
 
-        <header>
-            <a href="javascript:void(0)"><figure><img src="assets/Images/Logo.png" alt=""></figure></a>
-            <div class="header-bar">
-                <form action="" method="">
-                    <select name="" id="">
-                        <option value="">Policy No.</option>
-                        <option value="">First</option>
+        <div class="BoxNumber mt-5">
+            <h4>01. Button</h4>
+            <div class="Guidelines">
+                <a href="javascript:void(0)" class="viewbtn">view all</a>
+            </div>
+        </div>
+
+        <div class="BoxNumber">
+            <h4>02. Background</h4>
+            <div class="Guidelines">
+                <div class="row Bg-used">
+                    <div class="col-md-4 first-bg">#0056b5</div>
+                    <div class="col-md-4 second-bg">hsla(0,2%,89%,1)</div>
+                    <div class="col-md-4 third-bg">#023e6b</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="BoxNumber">
+            <h4>03. Color</h4>
+            <div class="Guidelines color-used">
+                <div class="color-one color">#0056b9</div>
+                <div class="color-two color">#343434</div>
+                <div class="color-three color">#414455</div>
+                <div class="color-four color">#616365</div>
+                <div class="color-five color">#6f6f6f</div>
+                <div class="color-six color">#ffffff</div>
+            </div>
+        </div>
+
+        <div class="BoxNumber">
+            <h4>04. Button Link</h4>
+            <div class="Guidelines btn-link">
+                <a href="javascript:void(0)">industrial robotics</a>
+            </div>
+        </div>
+
+        <div class="BoxNumber">
+            <h4>05. Select Box</h4>
+            <div class="Guidelines select-box">
+                <form action="">
+                    <select class="form-control" id="" name="">
+                        <option>--Select One--</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
                     </select>
-                    <input type="text" placeholder="Search here...">
-                    <button><span><i class="fa fa-search"></i></span></button>
-
                 </form>
-
-                <a href="javascript:void(0)" class="hed-anchor">GI ONLINE FORMS</a>
-                <a href="javascript:void(0)">AUDIT LOG</a>
-                <a href="javascript:void(0)">DISCUSSION FORUM</a>
-
             </div>
-        </header>
+        </div>
 
-
-        <div class="sideNav">
-            <!-- sidebars -->
-            <div class="left-sidebar">
-                <div class="side-tab">
-                    <a href="javascript:void(0)">
-                        <i class="fa-solid fa-house"></i>
-                        <figcaption>HOME</figcaption>
-                    </a>
+        <div class="BoxNumber">
+            <h4>06. Input fields</h4>
+            <div class="Guidelines input-fields">
+                <div class="form-group">
+                    <label for="usr">Email:</label>
+                    <input type="text" class="form-control" id="" name="username">
                 </div>
-                <div class="side-tab">
-                    <a href="javascript:void(0)">
-                        <i class="fa-solid fa-book"></i>
-                        <figcaption>LEADS</figcaption>
-                    </a>
-                </div>
-                <div class="side-tab">
-                    <a href="javascript:void(0)">
-                        <i class="fa-solid fa-pen"></i>
-                        <figcaption>QUOTES</figcaption>
-                    </a>
-                </div>
-                <div class="side-tab">
-                    <a href="javascript:void(0)">
-                        <i class="fa-solid fa-file"></i>
-                        <figcaption>PROPOSAL</figcaption>
-                    </a>
-                </div>
-                <div class="side-tab">
-                    <a href="javascript:void(0)">
-                        <i class="fa fa-user"></i>
-                        <figcaption>CLIENT</figcaption>
-                    </a>
-                </div>
-                <div class="side-tab">
-                    <a href="javascript:void(0)">
-                        <i class="fa-solid fa-file"></i>
-                        <figcaption>REPORTS</figcaption>
-                    </a>
-                </div>
-                <div class="side-tab">
-                    <a href="javascript:void(0)">
-                        <i class="fa-solid fa-file-import"></i>
-                        <figcaption>KNOWLEDGE<BR>CENTER</figcaption>
-                    </a>
-                </div>
-                <div class="side-tab">
-                    <a href="javascript:void(0)">
-                        <i class="fa-solid fa-user"></i>
-                        <figcaption>SERVICE REQUEST</figcaption>
-                    </a>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="" name="password">
                 </div>
             </div>
-            <!-- sidebars end -->
+        </div>
 
-            <div class="Form-section">
-                <div class="heading-bar">
-                    <h1>Motor Insurance Plan</h1>
-                </div>
-                <div class="bg-forms">
-                    <div class="bg-used">
-                        <div class="offline-form-one">
-                            <h4>How do you want to fill online or offline form?</h4><br>
-                            <form action="">
-                                <div class="radio">
-                                    <input type="radio" id="radio-1" name="radio">
-                                    <label for="radio-1" class="radio-label">Fill Online Form</label>
-                                </div>
-                                <div class="radio radio-second">
-                                    <input type="radio" id="radio-2" name="radio">
-                                    <label for="radio-2" class="radio-label">Fill Physical Form and Upload&nbsp;&nbsp;<i class="fa-solid fa-circle-info"></i></label>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="submit-btn">
-                        <form action="">
-                            <button class="proceed-btn">proceed</button>
-                        </form>
-                    </div>
+        <div class="BoxNumber">
+            <h4>07. Form Error State</h4>
+            <div class="Guidelines check-form">
+                <input id="numb">
+                <button type="button" onclick="myFunction()">Check</button>
+                <p id="demo"></p>
+            </div>
+        </div>
+
+        <div class="BoxNumber">
+            <h4>08. Checkbox</h4>
+            <div class="Guidelines Checkbox">
+                <form action="">
+                    <input type="checkbox" id="" name="" value="">
+                    <label for="">Please check this....</label>
+                </form>
+            </div>
+        </div>
+
+        <div class="BoxNumber">
+            <h4>09. breadcrumb</h4>
+            <div class="Guidelines">
+                <nav aria-label="">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Support & Training</a></li>
+                        <li class="breadcrumb-item"><a href="#">Support</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Motion System Integrators</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+      
+
+        <div class="BoxNumber">
+            <h4>10. Typography</h4>
+            <div class="Guidelines">
+                <div class="heading-one">
+                    <div>H2 Heading, FontSize-18px, FontWeight-bold Color-#343434</div>
+                    <div>P Paragraph, FontSize-14px, FontWeight-400 Color-#414455</div>
                 </div>
             </div>
-
         </div>
 
 
 
+        <section>
+            <h4>11. Sidebar</h4>
+            <div class="Guidelines">
+                <div class="SideBar">
+                    <h2>Products</h2>
+                    <ul class="menu">
+                        <li class="item">
+                            <a href="javascript:void(0)" class="sub-btn">Corporate Data<i
+                                    class="fa fa-angle-right dropdown"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="" class="sub-item">Locations</a></li>
+                                <li><a href="" class="sub-item">Departments</a></li>
+                                <li><a href="" class="sub-item">Quality Assurance</a></li>
+                                <li><a href="" class="sub-item">Awards</a></li>
+                                <li><a href="" class="sub-item">History</a></li>
+                                <li><a href="" class="sub-item">Testing Quick Links Format</a></li>
+                            </ul>
+                        </li>
+                        <li class="item">
+                            <a href="javascript:void(0)" class="sub-btn">Media Center<i
+                                    class="fa fa-angle-right dropdown"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="" class="sub-item">News</a></li>
+                                <li><a href="" class="sub-item">Industry News</a></li>
+                                <li><a href="" class="sub-item">Media Contact</a></li>
+                                <li><a href="" class="sub-item">Event Calendar</a></li>
+                                <li><a href="" class="sub-item">Video Repository</a></li>
+                                <li><a href="" class="sub-item">Image Repository</a></li>
+                                <li><a href="" class="sub-item">Surveys</a></li>
+                            </ul>
+                        </li>
+                        <li class="item">
+                            <a href="javascript:void(0)" class="sub-btn">Careers<i
+                                    class="fa fa-angle-right dropdown"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="" class="sub-item">Sarah One Two One Columns</a></li>
+                                <li><a href="" class="sub-item">Search Jobs</a></li>
+                                <li><a href="" class="sub-item">Job Notifications</a></li>
+                                <li><a href="" class="sub-item">Careers One to Three Column</a></li>
+                                <li><a href="" class="sub-item">Career One Three Two Columns</a></li>
+                                <li><a href="" class="sub-item">Career Menu and Columns</a></li>
+                            </ul>
+                        </li>
+                        <li class="item">
+                            <a href="javascript:void(0)" class="sub-btn">Corporate Data</a>
+                        </li>
+                        <li class="item">
+                            <a href="javascript:void(0)" class="sub-btn">Tests<i
+                                    class="fa fa-angle-right dropdown"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="" class="sub-item">Sarah One Two One Columns</a></li>
+                                <li><a href="" class="sub-item">Search Jobs</a></li>
+                                <li><a href="" class="sub-item">Job Notifications</a></li>
+                                <li><a href="" class="sub-item">Careers One to Three Column</a></li>
+                                <li><a href="" class="sub-item">Career One Three Two Columns</a></li>
+                                <li><a href="" class="sub-item">Career Menu and Columns</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="BoxNumber mt-5">
+                <h4>12. Product header</h4>
+                <div class="Guidelines">
+                    <div class="product-detail">
+                        <h3>General Purpose Drives</h3>
+                        <span><i class="fa fa-print"></i>&nbsp;&nbsp;print</span>
+                    </div>
+
+                    <!-- Child hover pages -->
+                    <section id="child-pages-section" class="mt-5">
+                        <div class="container">
+                            <div class="row">
+
+
+                                <!-- Wrapper 1 -->
+                                <div class="wrapper1 col-md-9 active-hoverReveal">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s</p><br>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum ha 1500s</p>
+                                    <div class="Icons-Wrapper">
+                                        <img src="assets/Images/video.png" alt="">&nbsp;<span>GA800
+                                            video</span>&nbsp;&nbsp;
+                                        <img src="assets/Images/link.png" alt="">&nbsp;<span>GA800 Interactive
+                                            Spotlight</span>
+                                    </div>
+
+                                </div>
+
+                                <!-- Wrapper 2 -->
+                                <div class="wrapper2 col-md-9 hidden-hoverReveal">
+
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <img src="assets/Images/meter.png" alt="" class="meter">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry.
+                                                Lorem
+                                                Ipsum ha 1500s</p>
+                                            <a href="#">View GA800 Product Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="Icons-Wrapper">
+                                        <img src="assets/Images/video.png" alt="">&nbsp;<span>Features &
+                                            Benifits</span>&nbsp;&nbsp;
+                                        <img src="assets/Images/link.png" alt="">&nbsp;<span>GA800 Interactive
+                                            Spotlight</span>&nbsp;&nbsp;
+                                        <img src="assets/Images/pdf.png" alt="">&nbsp;<span>Flyer</span>&nbsp;&nbsp;
+                                        <img src="assets/Images/pdf.png" alt="">&nbsp;<span>Catalog</span>
+                                    </div>
+
+                                </div>
+
+                                <!-- Wrapper 3 -->
+                                <div class="wrapper3 col-md-9 hidden-hoverReveal">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <img src="assets/Images/meter.png" alt="" class="meter">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry.
+                                                Lorem
+                                                Ipsum ha 1500s Lorem Ipsum is simply dummy text of the printing and
+                                                typesetting industry.
+                                                Lorem
+                                                Ipsum ha 1500s psum ha 1500s Lorem Ipsum is simply dummy text of the
+                                                printing and typesetting industry.
+                                                Lorem
+                                                Ipsum ha 1500s</p>
+                                        </div>
+                                    </div>
+                                    <div class="Icons-Wrapper">
+                                        <img src="assets/Images/video.png" alt="">&nbsp;<span>Video</span>&nbsp;&nbsp;
+                                        <img src="assets/Images/pdf.png" alt="">&nbsp;<span>Flyer</span>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="parent-pages">
+                                        <h6 class="parent hoverReveal1 active-parent ">Overview</h6>
+                                        <h6 class="parent hoverReveal2">GA800 Drive</h6>
+                                        <h6 class="parent hoverReveal3">U1000 Industrial MATRIX Drive</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="BoxNumber mt-5">
+                <h4>13. Tabs</h4>
+                <div class="Guidelines">
+                    <div class="tabs-names menu">
+                        <div class="dropdown">
+                            <h5 class="showSingle" target="1">Overview <i class="fa fa-angle-down"></i>
+                            </h5>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Dummy onse</a>
+                                <a class="dropdown-item" href="#">Dummy two</a>
+                                <a class="dropdown-item" href="#">Dummy three</a>
+                                <a class="dropdown-item" href="#">Dummy four</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <h5 class="showSingle" target="2">Options <i class="fa fa-angle-down"></i></h5>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Option one</a>
+                                <a class="dropdown-item" href="#">Option two</a>
+                                <a class="dropdown-item" href="#">Option three</a>
+                                <a class="dropdown-item" href="#">Option four</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <h5 class="showSingle" target="3">Software <i class="fa fa-angle-down"></i></h5>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Software one</a>
+                                <a class="dropdown-item" href="#">Software two</a>
+                                <a class="dropdown-item" href="#">Software three</a>
+                                <a class="dropdown-item" href="#">Software four</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <h5 class="showSingle" target="4">Support & Training <i class="fa fa-angle-down"></i>
+                            </h5>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Support one</a>
+                                <a class="dropdown-item" href="#">Support two</a>
+                                <a class="dropdown-item" href="#">Support three</a>
+                                <a class="dropdown-item" href="#">Support four</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                        <h5 class="showSingle" target="5">Documents <i class="fa fa-angle-down"></i></h5>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Document one</a>
+                            <a class="dropdown-item" href="#">Document two</a>
+                            <a class="dropdown-item" href="#">Document three</a>
+                            <a class="dropdown-item" href="#">Document four</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <h5 class="showSingle" target="6">Drawings <i class="fa fa-angle-down"></i></h5>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Drawing one</a>
+                            <a class="dropdown-item" href="#">Drawing two</a>
+                            <a class="dropdown-item" href="#">Drawing three</a>
+                            <a class="dropdown-item" href="#">Drawing four</a>
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div id="div1" class="targetDiv">
+                        <span class="tabs-feature ones">Features</span>
+                        <span class="tabs-feature">Highlights</span>
+                        <ul class="a">
+                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s</li>
+                            <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water
+                                over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to
+                                Asia</li>
+                            <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The
+                                drink's name refers to two of its original ingredients, which were kola nuts (a
+                                source of caffeine) and coca leaves</li>
+                        </ul>
+                    </div>
+                    <div id="div2" class="targetDiv">
+                        <span class="tabs-feature ones">Dummy Second</span>
+                        <span class="tabs-feature">Lorem Ipsum</span>
+                        <ul class="a">
+                            <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The
+                                drink's name refers to two of its original ingredients, which were kola nuts (a
+                                source of caffeine) and coca leaves</li>
+                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s</li>
+                            <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water
+                                over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to
+                                Asia</li>
+
+                        </ul>
+                    </div>
+                    <div id="div3" class="targetDiv">
+                        <span class="tabs-feature ones">Dummy Third</span>
+                        <span class="tabs-feature">Ipsum text</span>
+                        <ul class="a">
+                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has beeext ever since the 1500s</li>
+                            <li>Cted soft drink produced by The Coca-Cola Company. The
+                                drink's name refers to two of its original ingredients, which were kola nuts (a
+                                source of caffeine) and coca leaves</li>
+                            <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water
+                                over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to
+                                Asia</li>
+                        </ul>
+                    </div>
+                    <div id="div4" class="targetDiv">
+                        <span class="tabs-feature ones">Dummy Four</span>
+                        <span class="tabs-feature">Ipsum</span>
+                        <ul class="a">
+                            <li>Cted soft drink produced by The Coca-Cola Company. The
+                                drink's name refers to two of its original ingredients, which were kola nuts (a
+                                source of caffeine) and coca leaves</li>
+                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has beeext ever since the 1500s</li>
+                            <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water
+                                over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to
+                                Asia</li>
+                        </ul>
+                    </div>
+                    <div id="div5" class="targetDiv">
+                        <span class="tabs-feature ones">Dummy Five</span>
+                        <span class="tabs-feature">Dummyyy</span>
+                        <ul class="a">
+                            <li>Cted soft drink produced by The Coca-Cola Company. The
+                                drink's name refers to two of its original ingredients, which were kola nuts (a
+                                source of caffeine) and coca leaves</li>
+                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has beeext ever since the 1500s</li>
+                            <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water
+                                over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to
+                                Asia</li>
+                        </ul>
+                    </div>
+                    <div id="div6" class="targetDiv">
+                        <span class="tabs-feature ones">Dummy Six</span>
+                        <span class="tabs-feature">Dummyyy text</span>
+                        <ul class="a">
+                            <li>Cted soft drink produced by The Coca-Cola Company. The
+                                drink's name refers to two of its original ingredients, which were kola nuts (a
+                                source of caffeine) and coca leaves</li>
+                            <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water
+                                over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to
+                                Asia</li>
+                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has beeext ever since the 1500s</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="BoxNumber">
+            <h4>14. Bottom To Top Button</h4>
+            <div class="Guidelines">
+                <button id="scrollToTopBtn"><i class="fa fa-chevron-up"></i></button>
+            </div>
+        </div>
+
 
     </section>
-
-    <div class="test">
-       
-    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
