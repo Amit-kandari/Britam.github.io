@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul, li{
+    list-style: none;
+}
+label{
+    display: block;
+}
+.container{
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+select:focus, input:focus{
+    outline: none;
+}
+a:hover{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px #ccc;
+    padding: 10px 2px;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    z-index: 999;
+}

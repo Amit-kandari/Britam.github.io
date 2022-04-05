@@ -1,0 +1,225 @@
+@media only screen and (max-width: 1200px) {
+  /* header {
+    display: block;
+    width: 100%;
+  }
+  .header-bar select{
+    width: 20%;
+  }
+  .header-bar input{
+    width: 79%;
+  }
+  .header-bar a{
+    text-align: center;
+    margin-top: 10px;
+  }
+  .header-bar a.hed-anchor{
+    margin-left: 0;
+  }
+  .sideNav{
+    margin-top: 150px;
+  } */
+  .sideNav .left-sidebar, header{
+    display: none;
+  }
+  /*--Login-Britam--*/
+  .Form-section{
+    margin-left: 0;
+  }
+  .Form-section .heading-bar h1{
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 26px;
+  }
+  .Form-section .offline-form-one{
+    width: 100%;
+    height: auto;
+  }
+  /*--Login-Britam-end--*/
+  /*--Offline-form---*/
+  .timeline-slider{
+    display: none;
+  }
+  .file-upload-box .download-icon{
+    padding-left: 0;
+  }
+  .file-upload-box .pdf-file-download{
+    text-align: left;
+  }
+  .system-file{
+    padding-left: 0;
+  }
+  .file-upload-box{
+    width: 100%;
+    height: auto;
+  }
+  .offline-thanks-slide button{
+    margin: 30px auto 0 auto;
+    padding: 11px 15px;
+  }
+  /*---Service-request-one--*/
+  .service-request-one .service-form-one{
+    width: 100%;
+    height: auto;
+  }
+  .business-fields .date-business{
+    padding-left: 34px;
+  }
+  .business-fields .end-business{
+    padding-left: 34px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+  }
+  .service-form-four{
+    width: 100%;
+    height: auto;
+  }
+  .policy-client-Id{
+    padding-left: 34px;
+    margin-top: 30px;
+  }
+  .up-load .file-upload{
+    width: 90%;
+  }
+  .text-area{
+    padding-left: 34px;
+    padding-bottom: 10px;
+  }
+  .personal-details{
+    width: 100%;
+    height: auto;
+  }
+  .user-edit{
+    display: block;
+  }
+  .user-edit h2{
+    padding-top: 10px;
+    padding-bottom: 7px;
+  }
+  .Agent-number label{
+    margin-left: 20px;
+  }
+  .Agent-number select{
+    padding-left: 17px;
+  }
+  .clients-number {
+    padding-left: 33px;
+    margin: 25px 0;
+  }
+  .col-md-4.order-number {
+    padding-left: 34px;
+    padding-bottom: 20px;
+  }
+  .Thanks-pop-up{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 576px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* @media (max-width: 850px) {
+    .input {
+      width: 17px;
+      height: 17px;
+    }
+    .input::before, .input::after {
+      height: 3px;
+    }
+    .input::before {
+      left: calc(-4vw + 8.5px);
+    }
+    .input::after {
+      right: calc(-4vw + 8.5px);
+    }
+  }
+  @media (max-width: 600px) {
+    .flex-parent {
+      justify-content: initial;
+    }
+  
+    .input-flex-container {
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      margin-top: 15vh;
+    }
+  
+    .input {
+      width: 60px;
+      height: 60px;
+      margin: 0 10px 50px;
+      background-color: #AEB6BF;
+    }
+    .input::before, .input::after {
+      content: none;
+    }
+    .input span {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .input span::before {
+      top: calc(100% + 5px);
+      transform: translateX(-50%);
+      text-indent: 0;
+      text-align: center;
+    }
+    .input span::after {
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: #ECF0F1;
+    }
+  
+    .description-flex-container {
+      margin-top: 30px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 400px) {
+    body {
+    min-height: 950px;
+    }
+ } */
